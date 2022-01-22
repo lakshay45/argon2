@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.homeUpperLayout
+{
+    background-color: #5e72e4;
+    height: 40vh;
+}
+.homeLowerLayout
+{
+    background-color: #f4f5f7;
+    height: 60vh;
+}
+.headbar
+{
+    display: flex;
+    border-bottom: 1px solid #7384e4;
+    height: 10vh;
+}
+.homeUpperBodyContent
+{
+    padding-top: 40px;
+    display: flex;
+}
+.heading
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.headingDiv
+{
+    flex:1;
+    display:flex;
+    padding-left:2vw;
+    margin-right:10px;
+}
+.tableButton
+{
+    flex:7;
+    display:flex;
+    margin-top: -1vh;
+}
+.grpButtons{
+    flex:3;
+    display:flex;
+    justify-content:flex-end;
+    padding-right:2vw;
+}
+.buttonPrimary
+{
+    color: #5e72e4;
+    border-color: white;
+    background-color: white;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.inputDiv
+{
+    flex: 6;
+    padding: 10px 2vw;
+}
+.profileIconDiv
+{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search
+{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: #f4f5f7;
+    padding-left: 2vw;
+}
+.bellDiv
+{
+    padding-right: 2vw;
+}
+.cloneDiv
+{
+    padding-right: 2vw;
+}
+.avatarDiv
+{
+    padding-right: 2vw;
+    font-family: sans-serif;
+}
+.avatar
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.anchor
+{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
