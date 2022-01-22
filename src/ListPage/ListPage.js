@@ -10,7 +10,14 @@ const ListPage=()=>{
                 setData(json);
             })
     },[]);
-
+    const call=()=>{
+        
+        fetch("https://run.mocky.io/v3/8260aa5d-8af8-4cff-999e-6e81b217f0ba")
+            .then((res) => res.json())
+            .then((json) => {
+                setData(json);
+            });
+    }
     return (
     <>
         <div className="listPage">
@@ -27,14 +34,14 @@ const ListPage=()=>{
             </div>
             <div className="ListDiv">
             {
-                data.clients.map((item) => (
+                data && data.clients && data.clients.map((item) => (
                     <div className="List">
-                    <div className="theadRowContent">
-                        {item.name}
-                    </div>
-                    <div className="theadRowContent">
-                        {item.company}
-                    </div>
+                        <div className="theadRowContent">
+                            {item.name}
+                        </div>
+                        <div className="theadRowContent">
+                            {item.company}
+                        </div>
                     </div>
                 ))
             }
